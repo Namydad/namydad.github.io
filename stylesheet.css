@@ -24,6 +24,7 @@ p{
 #watermark1{
     text-align: center;
     color: red;
+    vertical-align: bottom;
 }
 .panel{
     margin: 200px;
@@ -34,7 +35,6 @@ p{
     color: white;
     border-radius: 6px;
     display: block;
-    align-items: center;
     text-decoration: none;
 }
 #paneltext{
