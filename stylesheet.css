@@ -1,0 +1,45 @@
+body{
+    background-color: #000000;
+}
+
+.black{
+    color: #000000
+}
+.centered{
+    text-align: center
+}
+h1{
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+p{
+    text-align: center;
+    color:white;
+}
+#watermark1{
+    text-align: center;
+    color: red;
+}
+.panel{
+    margin: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: white;
+    border-radius: 6px;
+}
+#paneltext{
+    text-align: left;
+    color: #000000;
+}
+
+#panelheader{
+    text-align: center;
+    color: #000000;
+}
