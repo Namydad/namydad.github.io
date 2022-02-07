@@ -1,7 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cpanelUser/public_html/
+    - export DEPLOYPATH=/home/namybmpv/public_html/
     - /bin/cp -R * $DEPLOYPATH
     
-view raw
+view raw  
+
