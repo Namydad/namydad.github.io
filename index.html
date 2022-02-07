@@ -1,28 +1,106 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Namydad's Page</title>
-            <meta name="description" content="Namydad's Personal Main Page">
-            <meta name="author" content="Namydad">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="stylesheet.css">
-        </head>
+<html>
+    <head>
+        <style>
+            *{
+                color: rgb(236, 222, 222);
+            }
+            article{
+                text-align: center;
+                
+            
+            }
+            header{
+                border:2px solid rgb(0, 0, 0);
+                text-align:center;
+                background: #660066;
+                height:120px;
+                
+            }
+            footer{
+                border:1px solid rgb(0, 0, 0);
+                background-color:#660066;
+                
+            }
+            a:link {
+                color: rgb(0, 0, 0); 
+                text-decoration-line: none;
+                text-decoration:none;
+                border:2px solid black;
+                background-color: #efbbff;
+            }
+            body{
+                background-color:rgb(66, 66, 66);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            .header{
+                background-color:#be29ec;
+                margin-left: 30%;
+                margin-right: 30%;
+                padding: 3px;
+                height:20px;
+                border:2px solid black;
+            }
+            .links{
+                color:rgb(0, 0, 0);
+                padding:0px
+            }
+            .left{
+                text-align: left;
+                
+            }
+            .right{
+                text-align: right;
+            }
+            .mainbody{
+                background-color: #660066;
+                width:80%;
+                clear:none;
+                margin:auto;
+                border:3px solid #000000;
+            }
+        </style>
+            <title>
+                Namydad
+            </title>
+    </head>
         <body>
-            <h1>Namydad</h1>
-            <h1><div class="img2"><img src="bilder/snap.jpg" alt="Snap" style="width:150px;height:150px;"></div></h1>
-            <h2>Kommunikationstechnik/Praktikum</h2>
-            <a class="panel" href="socialmedia.html"> 
-                <h1 id="panelheader">Social Media</h1>
-                <p id="paneltext">Want to check out our social media connections? </p>
-                <p id="paneltext">Come Check them out by clicking on the Box! </p>
-            </a>
-        <div class="row justify-content-lg-center visible"><div class="col-12 col-lg-8">
-        <div class="pb-links justify-content-lg-center pb-links-noimg mt-2 row m-0 mt-4 effect-shadow">	<div class="pb-linkbox pb-desktop-list-small-sqr pb-mobile-list-small-sqr bt-2 mb-2 col-md-12 col-12 ">
-            <div class="text-center w-100 pb-linkimage pb-embed pb-embed-EMBED_SPOTIFY pb-embed-EMBED_SPOTIFY-playlist"><iframe src="https://open.spotify.com/embed/playlist/5fmoVAgr7oEYypcRMDCAFa" width="25%" height="25%" frameborder="0" allowtransparency="true" allow="encrypted-media" alignment="center"></iframe></div>
-            <p id="watermark1">
-            Autor: Tobias Lammer
-            Klasse: 2BKI11
-            </p>
-
+        <header>
+            <h1>Homepage</h1>
+            <div class="header">
+                <a class="links" href="socialmedia.html">Social Media</a>
+                <a class="links" href="Links.html">Links</a>
+                <a class="links" href="Rechnung.html">Rechner</a>
+            </div>
+            <br>
+            <br>
+        </header>
+        <br>
+        <div class="mainbody">  
+            <article>
+                <h2>Werner-von-Siemens-Schule Mannheim</h2>
+                <p>Autor: Tobias Lammer</p>
+                <p>Klasse: 2BKI11</p>
+                <p>Lehrer: Herr Wiedmann / Herr Hanelt
+                </p>
+            </article>
+            <br>
+            <br>
+                <table align="center">
+                    <tr>
+                        <td href="socialmedia.html">Social Media</td>
+                    </tr>
+                </table>
+        </div>
+        <br>
+        <footer>
+            <span class="left">
+            <p1>Tobias Lammer</p1>
+            </span>
+            <span class="right">
+            <p1>2BKI11</p1>
+            </span>
+        </footer>
         </body>
     </html>
