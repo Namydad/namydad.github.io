@@ -8,6 +8,16 @@ body{
 .centered{
     text-align: center
 }
+tr{
+    text-align: center;
+    color:yellow;
+    border: 500px;
+    border-color:red;
+}
+td{
+    border: 500px;
+    border-color: aqua;
+}
 h1{
     text-align: center;
     color:red;
@@ -33,7 +43,6 @@ p{
     padding: 20px;
     background-color: blanchedalmond;
     color: white;
-    border-radius: 30px; 
     display: block;
     text-decoration: none;
   }
