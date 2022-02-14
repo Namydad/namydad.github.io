@@ -10,6 +10,20 @@
                 
             
             }
+            .formular1{
+                color:white;
+            }
+            .field{
+                color:white;
+                background-color:#be29ec;            }
+            .button{
+                color:white;
+                background-color:#be29ec; 
+            }
+            .result{
+                color:white;
+                background-color:#be29ec;
+            }
             header{
                 border:2px solid rgb(0, 0, 0);
                 text-align:center;
@@ -65,14 +79,36 @@
             <title>
                 Namydad
             </title>
+				<meta charset="utf-8">
+					<title>Berechnung</title>
+				<link rel="stylesheet" type="text/css" href="stylesheet.css">
+				<script type="text/javascript">
+					function auswerten()
+					{
+					
+					var w1	= parseInt(formular1.widerstand1.value);
+					var w2	= parseInt(formular1.widerstand2.value);
+					
+					if (formular1.schaltung.value=='reihe') {
+						formular1.ergebnis.value = w1+w2;
+					}
+					else if (formular1.schaltung.value=='parallel') {
+						formular1.ergebnis.value = w1*w2/(w1+w2);
+					}
+					
+					 
+					}
+				</script>
+                <!–– Copyright for the Javascript code Marcel Lammer source:http://halde.wvss-mannheim.de/Lehrer/Wiedmann/html/marcel/berechnung.html ––>
     </head>
         <body>
         <header>
-            <h1>Homepage</h1>
+            <h1>Resistance Calculator</h1>
             <div class="header">
+                <a class="links" href="index.html">Homepage</a>
                 <a class="links" href="Social.html">Social Media</a>
                 <a class="links" href="https://github.com/Namydad/public_html">Github</a>
-                <a class="links" href="Rechnung.html">Rechner</a>
+                
             </div>
             <br>
             <br>
@@ -80,15 +116,29 @@
         <br>
         <div class="mainbody">  
             <br>
-            <article>
-                <h2>Werner-von-Siemens-Schule Mannheim</h2>
-                <p>Autor: Tobias Lammer</p>
-                <p>Klasse: 2BKI11</p>
-                <p>Lehrer: Herr Wiedmann / Herr Hanelt
-                </p>
-            </article>
+            <form class="formular1" name="formular1" action="javascript:auswerten();">
+                1.Resistance:
+                <input class="field" type="text" name="widerstand1" data-com.bitwarden.browser.user-edited="yes">Ω<br>
+                <br>
+                2.Resistance:
+                <input class="field" type="text" name="widerstand2" data-com.bitwarden.browser.user-edited="yes">Ω
             <br>
+            
+            
+                <input type="radio" id="rs" name="schaltung" value="reihe" checked="" data-com.bitwarden.browser.user-edited="yes"><label for="rs"> Reihenschaltung</label><br> 
+                <input type="radio" id="ps" name="schaltung" value="parallel" data-com.bitwarden.browser.user-edited="yes"><label for="ps">Parallelschaltung</label><br> 
             <br>
+            
+            
+                
+                <input class="button" type="submit" value="Berechnen"><br>
+            <br>
+            
+            
+                Resistance:
+                <input class="result" type="text" name="ergebnis" value="Enter Resistance" readonly="">Ω<br>
+            <br>
+            </form>
         </div>
         <br>
         <footer>
