@@ -18,7 +18,18 @@ footer{
     background-color:#660066;   
 }
 a:visited{
-    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    text-decoration-line: none;
+    text-decoration:none;
+    border:2px solid black;
+    background-color: #efbbff;
+}
+a:active{
+    color: rgb(0, 0, 0); 
+    text-decoration-line: none;
+    text-decoration:none;
+    border:2px solid black;
+    background-color: #efbbff;
 }
 a:link {
     color: rgb(0, 0, 0); 
