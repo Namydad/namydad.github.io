@@ -7,7 +7,6 @@
             </title>
 				<meta charset="utf-8">
 					<title>Berechnung</title>
-				<link rel="stylesheet" type="text/css" href="stylesheet.css">
 				<script type="text/javascript">
 					function auswerten()
 					{
@@ -44,20 +43,20 @@
             <br>
             <form class="formular1" name="formular1" action="javascript:auswerten();">
                 1.Resistance:
-                <input class="field" type="text" name="widerstand1" data-com.bitwarden.browser.user-edited="yes">Ω<br>
+                <input class="field" type="text" name="widerstand1">Ω<br>
                 <br>
                 2.Resistance:
-                <input class="field" type="text" name="widerstand2" data-com.bitwarden.browser.user-edited="yes">Ω
+                <input class="field" type="text" name="widerstand2">Ω
             <br>
             
             
-                <input type="radio" id="rs" name="schaltung" value="reihe" checked="" data-com.bitwarden.browser.user-edited="yes"><label color="#efbbff" for="rs"> Reihenschaltung</label><br> 
-                <input type="radio" id="ps" name="schaltung" value="parallel" data-com.bitwarden.browser.user-edited="yes"><label color="#efbbff" for="ps">Parallelschaltung</label><br> 
+                <input class="radio" type="radio" id="rs" name="schaltung" value="reihe" checked=""><label for="rs"> Reihenschaltung</label><br> 
+                <input class="radio" type="radio" id="ps" name="schaltung" value="parallel"><label for="ps"> Parallelschaltung</label><br> 
             <br>
             
             
                 
-                <input color="#efbbff" class="button" type="submit" value="Berechnen"><br>
+                <input class="button" type="submit" value="Berechnen"><br>
             <br>
             
             
