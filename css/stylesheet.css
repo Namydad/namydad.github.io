@@ -1,10 +1,20 @@
+@font-face {
+    font-family: JetBrainsMono;
+    font-weight: normal;
+    src: url(JetBrainsMono-Regular.woff2);
+}
+@font-face{
+    font-family: JetBrainsMono;
+    font-weight: bold;
+    src: url(JetBrainsMono-Bold.woff2);
+}
 *{
     color: rgb(236, 222, 222);
+    overflow:auto;
+    font-family: JetBrainsMono;
 }
 article{
     text-align: center;
-    
-
 }
 header{
     border:2px solid rgb(0, 0, 0);
@@ -43,6 +53,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 100vh; 
+    font-family: 'MyWebFont', Fallback, sans-serif;
 }
 .button,.radio,.result,.field{
     background-color: #000000 !important;
@@ -77,4 +88,11 @@ body{
     clear:none;
     margin:auto;
     border:3px solid #000000;
+}
+table.class{
+    width: 100%;
+    border: none;
+}
+td.class{
+    border: solid #005ce6 5px;
 }
