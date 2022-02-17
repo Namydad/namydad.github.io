@@ -1,13 +1,11 @@
-@font-face {
-    font-family: 'JetBrainsMono';
-    font-weight: normal;
-    src: url(JetBrainsMono-Regular.woff2) format('woff2');
-}
 @font-face{
     font-family: 'JetBrainsMono';
-    font-weight: bold;
-    src: url(JetBrainsMono-Bold.woff2) format('woff2');
-}
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 *{
     color: rgb(236, 222, 222);
     overflow:auto;
@@ -28,7 +26,7 @@ header{
 footer{
     border:2px solid rgb(0, 0, 0);
     background-color:#660066;
-    font-family: 'JetBrainsMono';   
+    font-family: JetBrainsMono-Regular;   
 }
 a:visited{
     color: rgb(0, 0, 0) !important; 
