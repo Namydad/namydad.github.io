@@ -53,7 +53,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 100vh; 
-    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-family: 'JetBrainsMono', Fallback, sans-serif;
 }
 .button,.radio,.result,.field{
     background-color: #000000 !important;
