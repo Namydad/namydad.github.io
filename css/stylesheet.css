@@ -1,17 +1,17 @@
 @font-face {
-    font-family: JetBrainsMono;
+    font-family: 'JetBrainsMono';
     font-weight: normal;
     src: url(JetBrainsMono-Regular.woff2);
 }
 @font-face{
-    font-family: JetBrainsMono;
+    font-family: 'JetBrainsMono';
     font-weight: bold;
     src: url(JetBrainsMono-Bold.woff2);
 }
 *{
     color: rgb(236, 222, 222);
     overflow:auto;
-    font-family: JetBrainsMono;
+    font-family: 'JetBrainsMono';
 }
 article{
     text-align: center;
