@@ -15,17 +15,20 @@
 }
 article{
     text-align: center;
+    font-family: 'JetBrainsMono';
 }
 header{
     border:2px solid rgb(0, 0, 0);
     text-align:center;
     background: #660066;
     height:120px;
+    font-family: 'JetBrainsMono';
     
 }
 footer{
     border:2px solid rgb(0, 0, 0);
-    background-color:#660066;   
+    background-color:#660066;
+    font-family: 'JetBrainsMono';   
 }
 a:visited{
     color: rgb(0, 0, 0) !important; 
