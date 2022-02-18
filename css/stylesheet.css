@@ -29,11 +29,11 @@ footer{
     font-family: JetBrainsMono-Regular;   
 }
 a:visited{
-    color: rgb(0, 0, 0) !important; 
+    color: rgb(255, 255, 255) !important; 
     text-decoration-line: none !important;
     text-decoration:none !important;
     border:2px solid black !important;
-    background-color: #efbbff !important;
+    background-color: #660066 !important;
 }
 a:active{
     color: rgb(0, 0, 0) !important; 
@@ -95,5 +95,12 @@ table.class{
     border: none;
 }
 td.class{
-    border: solid #005ce6 5px;
+    border: solid #be29ec 5px;
+    background-color:#660066;
+}
+.img1{
+    margin:10px; width: auto; height:auto; float:right; border:none;
+}
+.img2{
+    margin:10px; width: auto; height:auto; float:left; border:none;
 }
