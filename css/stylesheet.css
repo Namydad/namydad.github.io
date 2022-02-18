@@ -6,6 +6,20 @@
     font-weight: 400;
     font-style: normal;
   }
+table.class{
+    width: 100%;
+    border: none;
+}
+td.class{
+    border: solid #be29ec 5px;
+    background-color:#660066;
+}
+.img1{
+    margin:10px; width: auto; height:auto; float:right; border:none;
+}
+.img2{
+    margin:10px; width: auto; height:auto; float:left; border:none;
+}
 *{
     color: rgb(236, 222, 222);
     overflow:auto;
