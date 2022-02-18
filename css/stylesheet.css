@@ -42,20 +42,6 @@ footer{
     background-color:#660066;
     font-family: JetBrainsMono-Regular;   
 }
-a:visited{
-    color: rgb(255, 255, 255) !important; 
-    text-decoration-line: none !important;
-    text-decoration:none !important;
-    border:2px solid black !important;
-    background-color: #660066 !important;
-}
-a:active{
-    color: rgb(0, 0, 0) !important; 
-    text-decoration-line: none !important;
-    text-decoration:none !important;
-    border:2px solid black !important;
-    background-color: #efbbff !important;
-}
 a:link {
     color: rgb(0, 0, 0) !important; 
     text-decoration-line: none !important;
