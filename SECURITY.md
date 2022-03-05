@@ -2,8 +2,6 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
 
 Currently there are no Security Supported Versions. 
 This is the most empty headed CSS and HTML.
