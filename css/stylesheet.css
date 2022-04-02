@@ -23,6 +23,7 @@ td.class{
 *{
     color: rgb(236, 222, 222);
     font-family: 'JetBrainsMono';
+    
 }
 article{
     text-align: center;
@@ -40,12 +41,9 @@ footer{
     background-color:#660066;
     font-family: JetBrainsMono-Regular;   
 }
-a{
-    color: rgb(0, 0, 0) !important;
-    border:2px solid black !important;
-    background-color: #efbbff !important;
-}
-a:link {
+
+a.links {
+    padding:1px;
     color: rgb(0, 0, 0) !important; 
     text-decoration-line: none !important;
     text-decoration:none !important;
@@ -85,6 +83,9 @@ body{
 }
 .right{
     text-align: right;
+}
+.middle{
+    text-align: center;
 }
 .mainbody{
     background-color: #660066;
